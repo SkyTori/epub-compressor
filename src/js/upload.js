@@ -8,7 +8,7 @@ class FileUploader {
         this.fileName = this.fileInfo.querySelector('.file-name');
         this.fileSize = this.fileInfo.querySelector('.file-size');
         
-        this.maxFileSize = 50 * 1024 * 1024; // 50MB
+        this.maxFileSize = 500 * 1024 * 1024; // 50MB
         this.setupEventListeners();
     }
 
